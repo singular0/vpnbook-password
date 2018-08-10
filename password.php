@@ -16,6 +16,7 @@ foreach($html("li#pptpvpn>ul>li>strong>img") as $e) {
     $ocr->config("tessedit_char_whitelist", "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789");
     $ocr->image($fileName);
     $password = $ocr->run();
+    unlink($fileName);
     echo $password;
     break;
   }

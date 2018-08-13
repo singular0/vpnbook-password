@@ -1,8 +1,9 @@
 {
   "name": "singular0/vpnbook-password",
   "description": "Script to retrieve current password for VPNBook service",
+  "minimum-stability": "dev",
   "require": {
     "ressio/pharse": "0.2.*",
-    "thiagoalessio/tesseract_ocr": "2.6.*"
+    "zcastle/gocr-php": "*"
   }
 }

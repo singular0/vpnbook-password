@@ -9,4 +9,5 @@ composer install
 ```
 
 As now VPNBook present password as an image you also need
-[Tesseract OCR](https://github.com/tesseract-ocr/tesseract) to be installed on your systems.
+[GOCR](http://www-e.uni-magdeburg.de/jschulen/ocr/) and [Netpbm](http://netpbm.sourceforge.net)
+to be installed on your systems.
